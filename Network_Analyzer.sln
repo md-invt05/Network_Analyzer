@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Network_Analyzer", "Network_Analyzer\Network_Analyzer.csproj", "{48937E35-CBFC-488A-A17B-A2E1B11C445A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48937E35-CBFC-488A-A17B-A2E1B11C445A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48937E35-CBFC-488A-A17B-A2E1B11C445A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48937E35-CBFC-488A-A17B-A2E1B11C445A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48937E35-CBFC-488A-A17B-A2E1B11C445A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
