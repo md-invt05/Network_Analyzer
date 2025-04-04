@@ -12,8 +12,8 @@ public partial class MainViewPage : Page
 
     private void OnNavigateToUrlAnalyzerPage(object sender, RoutedEventArgs e)
     {
-        var urlAnalyzerViewPage = new UrlAnalyzerViewPage(); 
+        var urlAnalyzerViewPage = new URLAnalyzerViewPage(); 
         var frame = (Frame)Window.GetWindow(this).FindName("MainFrame");
-        frame.Navigate(UrlAnalyzerViewPage);
+        frame.Navigate(urlAnalyzerViewPage);
     }
 }
