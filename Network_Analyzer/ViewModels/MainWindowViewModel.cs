@@ -5,7 +5,7 @@ using Network_Analyzer.Models;
 
 namespace Network_Analyzer.ViewModels;
 
-public class MainViewModel : INotifyPropertyChanged
+public class MainWindowViewModel : INotifyPropertyChanged
     {
         // Коллекция для хранения информации о сетевых интерфейсах
         public ObservableCollection<NetworkInterfaceInfo> Interfaces { get; set; }
@@ -43,7 +43,7 @@ public class MainViewModel : INotifyPropertyChanged
         }
 
         // Конструктор, который инициализирует коллекцию и загружает данные об интерфейсах
-        public MainViewModel()
+        public MainWindowViewModel()
         {
             Interfaces = new ObservableCollection<NetworkInterfaceInfo>();
             GetNetworkInterfaces();
